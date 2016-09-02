@@ -1,14 +1,26 @@
-layout_spectrum: 0.2682198
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+    permalink:
+      path: '/:title/'
 color:
-  saturation: 0.3462758
+  saturation: 0.4928315
   brandStrength: 1
-  lightness: 0.0822406
-  rhythmicContrast: 0.8624607
+  rhythmicContrast: 1
   brandColors:
-    - '#A690A4'
-    - '#B68F9D'
-    - '#C8ACAB'
-    - '#FBB9BF'
-    - '#E376B7'
-typography_spectrum: 0.0925926
+    - '#313131'
+    - '#BFBFBF'
+    - '#9F9F9F'
+    - '#0F0F0F'
+    - '#DFDFDF'
+  lightness: 0
+typography_spectrum: 0
+layout_spectrum: 0.9313023
 name: Luis Mena Fotografía
